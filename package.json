@@ -1,0 +1,15 @@
+{
+  "name": "sandcastles-schema-faq",
+  "version": "1.0.0",
+  "description": "Lightweight, high-speed Gutenberg FAQ accordion block with automated server-side JSON-LD schema generation for advanced SEO and GEO visibility.",
+  "author": "Alex Seif <https://alexseif.com>",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.4.0"
+  }
+}

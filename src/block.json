@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "sandcastles/schema-faq",
+  "title": "Sandcastles Schema FAQ",
+  "description": "Lightweight, high-speed Gutenberg FAQ accordion block with automated server-side JSON-LD schema generation for advanced SEO and GEO visibility.",
+  "category": "widgets",
+  "icon": "editor-help",
+  "textdomain": "sandcastles-schema-faq",
+  "attributes": {
+    "faqs": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css"
+}

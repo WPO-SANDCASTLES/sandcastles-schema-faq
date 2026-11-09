@@ -1,0 +1,1 @@
+document.addEventListener("click",t=>{const s=t.target;if(!s||!s.closest)return;const e=s.closest(".faq-trigger");e&&e.closest(".sandcastles-schema-faq-root[data-accordion]")&&(t.preventDefault(),(t=>{const s=t.closest(".faq-item");if(!s)return;const e=s.classList.contains("is-open");s.classList.toggle("is-open",!e),t.setAttribute("aria-expanded",String(!e))})(e))});
