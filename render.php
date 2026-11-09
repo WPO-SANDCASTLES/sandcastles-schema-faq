@@ -78,7 +78,7 @@ function sandcastles_schema_faq_render_block( $attributes ) {
 				</button>
 				<div class="faq-pane" id="<?php echo esc_attr( $panel_id ); ?>">
 					<div class="faq-content">
-						<?php echo $answer_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						<?php echo wp_kses_post( $answer_html ); ?>
 					</div>
 				</div>
 			</div>
